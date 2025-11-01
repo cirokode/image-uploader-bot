@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Upload Gambar — Image Uploader</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Upload Gambar</h1>
+    <form action="upload.php" method="post" enctype="multipart/form-data" id="uploadForm">
+      <input type="file" name="fileToUpload" accept="image/*" required>
+      <button type="submit">Upload</button>
+    </form>
+    <p class="muted">Atau kirim gambar ke Bot Telegram untuk mendapatkan link langsung.</p>
+    <a class="btn-link" href="gallery.php">Lihat Gallery</a>
+  </main>
+</body>
+</html>
